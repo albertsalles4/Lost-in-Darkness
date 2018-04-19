@@ -1,12 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost in darkness", "Lost in darkness.csproj", "{685BE486-8212-8D60-3815-88E293DAE66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost in darkness.Plugins", "Lost in darkness.Plugins.csproj", "{C51BB231-35F4-3F9C-2C9B-1B693178A050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost in darkness.Editor.Plugins", "Lost in darkness.Editor.Plugins.csproj", "{B22A15ED-0B5A-C339-B23C-DEF8C0C1879D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{685BE486-8212-8D60-3815-88E293DAE66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685BE486-8212-8D60-3815-88E293DAE66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685BE486-8212-8D60-3815-88E293DAE66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685BE486-8212-8D60-3815-88E293DAE66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51BB231-35F4-3F9C-2C9B-1B693178A050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51BB231-35F4-3F9C-2C9B-1B693178A050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51BB231-35F4-3F9C-2C9B-1B693178A050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51BB231-35F4-3F9C-2C9B-1B693178A050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22A15ED-0B5A-C339-B23C-DEF8C0C1879D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22A15ED-0B5A-C339-B23C-DEF8C0C1879D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22A15ED-0B5A-C339-B23C-DEF8C0C1879D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22A15ED-0B5A-C339-B23C-DEF8C0C1879D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
